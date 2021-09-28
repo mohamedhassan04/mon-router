@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: "masterrat", sans-serif;
+  background-color: #141414;
+}
+
+header {
+  padding: 50px 15px 0px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+section {
+  padding: 15px;
+}
+
+.filterbox {
+  display: block;
+  width: 80%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #eee;
+  border-radius: 8px;
+  color: #53565a;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.4s ease-out;
+  margin: 0 auto;
+}
+.filterbox ::placeholder {
+  text-align: center;
+}
+
+.filterbox:focus {
+  box-shadow: 0px 0px 100px 3px #4484c4;
+}
+
+.card-body {
+  color: black;
+}
+
+.el3ouji {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-all {
+  display: block;
+}
+.f-all > * {
+  width: 100%;
+}
+.btn-2 {
+  background-image: linear-gradient(
+    89.8deg,
+    rgba(222, 74, 74, 1) 4.7%,
+    rgba(30, 29, 29, 1) 120.3%
+  ) !important;
+  border-color: rgba(222, 74, 74, 1) !important;
+}
+.btn-1 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.caramel {
+  background-color: wheat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: rgb(12, 12, 12);
+  padding: 1rem;
+  transform: translateY(110%);
+  transition: transform 0.3s ease-in-out;
+  overflow: auto;
+  max-height: 100%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mohamed:hover .caramel {
+  transform: translateY(0%);
+}
+
+.mohamed {
+  border-radius: 3px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  position: relative;
+}
+
+.med {
+  background-image: radial-gradient(
+    circle 911px at 0.4% 50.5%,
+    rgba(187, 68, 48, 1) 18.7%,
+    rgba(21, 30, 33, 1) 90%
+  );
+}
+
+.eti {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  background-image: linear-gradient(
+    178.2deg,
+    rgba(118, 8, 23, 1) 10.9%,
+    rgba(158, 12, 33, 1) 62.6%
+  );
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  padding: 0px 20px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.home {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.desc {
+  background-image: linear-gradient(
+    103.3deg,
+    rgba(252, 225, 208, 1) 30%,
+    rgba(255, 173, 214, 1) 55.7%,
+    rgba(162, 186, 245, 1) 81.8%
+  );
+}
